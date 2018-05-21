@@ -24,13 +24,14 @@ class GraficoBlock extends BlockBase {
         '#theme' => 'js_3rd_party',
         '#attached' => [
             'library' => [
-                'libraries/chart_js',
-                'js_3rd_party/js_3rd_party.demo_chartjs'
+               'libraries/chart_js',
+               'js_3rd_party/js_3rd_party.demo_chartjs'
             ]
         ]
     ];
 
     //'libraries/chart_js',
+    //'js_3rd_party/js_3rd_party.demo_chartjs'
 
     return $build;
   }
