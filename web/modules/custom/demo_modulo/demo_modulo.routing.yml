@@ -1,7 +1,7 @@
 demo_modulo.demo_modulo_controller:
   path: '/test-page'
   defaults:
-    _controller:
+    _controller: '\Drupal\demo_modulo\Controller\EjemploModulosController::testDemo'
     _title: 'Pagina del modulo'
   requirements:
     _permission: 'access content'
