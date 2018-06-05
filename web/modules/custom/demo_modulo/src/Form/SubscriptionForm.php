@@ -51,7 +51,7 @@ class SubscriptionForm extends FormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
 
       $email = $form_state->getValue('email');
-      drupal_set_message('@email subscrito', ['@email' => $email]);
+      drupal_set_message($this->t('@email subscrito', ['@email' => $email]));
 
   }
 
