@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains itm_lab3.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function itm_lab3_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the itm_lab3 module.
+    case 'help.page.itm_lab3':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Laboratorio tres') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function itm_lab3_theme() {
+  return [
+    'itm_lab3' => [
+      'render element' => 'children',
+    ],
+  ];
+}

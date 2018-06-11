@@ -1,0 +1,9 @@
+
+pruebas_personales.persona_form:
+  path: '/pruebas_personales/form/persona'
+  defaults:
+    _form: '\Drupal\pruebas_personales\Form\PersonaForm'
+    _title: 'PersonaForm'
+  requirements:
+    _access: 'TRUE'
+  

@@ -7,7 +7,7 @@ demo_modulo.demo_modulo_controller:
     _permission: 'access content'
 
 demo_modulo.configuration_form:
-  path: 'drupal site:mode  dev'
+  path: 'admin/config/demo_modulo/configuration'
   defaults:
     _form: '\Drupal\demo_modulo\Form\ConfigurationForm'
     _title: 'ConfigurationForm'

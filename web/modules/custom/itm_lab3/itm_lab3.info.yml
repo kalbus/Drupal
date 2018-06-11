@@ -1,0 +1,5 @@
+name: 'itm_lab3'
+type: module
+description: 'Laboratorio tres'
+core: 8.x
+package: 'Custom'

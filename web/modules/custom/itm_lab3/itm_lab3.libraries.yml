@@ -1,0 +1,4 @@
+itm_lab3.flags:
+  css:
+    theme:
+      /libraries/flag-icon-css/css/flag-icon.css: {}

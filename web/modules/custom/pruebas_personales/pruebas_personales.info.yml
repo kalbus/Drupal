@@ -1,0 +1,5 @@
+name: 'pruebas_personales'
+type: module
+description: 'Este modulo es para realizar mis practicas personales'
+core: 8.x
+package: 'Custom'

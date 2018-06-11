@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains pruebas_personales.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function pruebas_personales_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the pruebas_personales module.
+    case 'help.page.pruebas_personales':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Este modulo es para realizar mis practicas personales') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function pruebas_personales_theme() {
+  return [
+    'pruebas_personales' => [
+      'render element' => 'children',
+    ],
+  ];
+}
