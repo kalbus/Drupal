@@ -1,0 +1,7 @@
+name: Tema custom
+type: theme
+description: "El mejor tema base desde cero"
+core: 8.x
+base theme: classy
+libraries:
+  - tema_custom_drupal/global-styling
